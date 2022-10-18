@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    color: rgb(0, 0, 0);
+    }
+  
+.background {
+    background-image: url(https://images5.alphacoders.com/103/1031868.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.card {
+    background-image: linear-gradient(to bottom right,rgba(255, 255, 255, 0.3) 0%,rgba(255, 255, 255, 0.1) 100%);
+    backdrop-filter: blur(6px);
+    border-radius: 12px;
+    width: 320px;
+    border-top: 2px solid rgba(255, 255, 255, 0.5);
+    border-left: 0.5px solid rgba(255, 255, 255, 0.5);
+    padding: 30px;
+    box-shadow: rgba(255, 255, 255, 0.5) -20px -20px 45px inset,rgba(0, 0, 0, 0.1) 10px 10px 20px, rgba(0, 0, 0, 0.06) 5px 5px 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+    width: 100px;
+    border-radius: 50%;
+    border: solid 3px #ffff;
+    margin-bottom: 10px;
+}
+  
+h2 {
+    color:#ffff;
+    font-size: 1.5em;
+    font-weight: 1000;
+    margin-bottom: 10px;
+}
+  
+.card_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#ffff;
+    font-size: 15px;
+    opacity: 0.8;
+    margin-bottom: 1em;
+}
+  
+a{
+    color: #E4E4E4;
+    background: rgba(255, 255, 255, 0.205);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 45px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+}
+
+a:hover{
+    color: #94bbe9;
+    font-style: italic;
+}
+
+.button p{
+    margin-left: 5px;
+}
+
+i{
+    color: #ffffff;
+}
+
+footer{
+    background: rgba(255, 255, 255, 0.459);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: center;
+    bottom:0;
+    left: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 25px;
+}
+
+footer h4{
+    color: #A5A5A5;
+    font-size: 13px; 
+    font-weight: 200;
+}
